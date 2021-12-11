@@ -2,7 +2,7 @@ def read_input():
     with open("input.txt") as f:
         lines = f.readlines()
         lines = [l.strip() for l in lines]
-    return [[x for x in l] for l in lines]
+    return lines
 
 
 def solve_part_1(data):
